@@ -1,24 +1,50 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import Header from './Header.jsx';
+import Produits from './Produits';
+import Card from './Card'
+
+
 
 function App() {
+
+    const [movieName, setMovieName] = useState('')
+    const [review, setReview] = useState('')
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <Card/>
+        <h1>Pharmacie</h1>
+
+
+          <div className="form" >
+              <Header/>
+              <label>Movie Name : </label>
+        <input
+            type='text'
+            name='MovieName'
+            onChange={(e)=>  {
+                setMovieName(e.target.value)
+                console.log(movieName)
+        }}
+        />
+        <label>Review : </label>
+        <input
+            type='text'
+            name='Review'
+            onChange={(e)=>  {
+                setReview(e.target.value)
+                console.log(setReview)
+            }}
+
+        />
+
+        <button>Submit</button>
+        <Produits/>
+
+        </div>
+
+      </div>
   );
 }
 
