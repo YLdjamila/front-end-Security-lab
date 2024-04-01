@@ -9,9 +9,12 @@ function App() {
 
   return (
       <div className="App">
-          <h1>Pharmacie</h1>
-          <h1>Pharmacie</h1>
-          <h1>Pharmacie</h1>
+          <h1>Pharmacy</h1>
+          <h1>Pharmacy</h1>
+          <h1>Pharmacy</h1>
+          <h1>Pharmacy</h1>
+          <h1>Pharmacy</h1>
+          <h1>Pharmacy</h1>
 
 
       </div>
