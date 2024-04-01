@@ -1,0 +1,18 @@
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import './App.css';\r\nimport React from 'react';\r\n\r\n\r\n\r\n/* test*/\r\nfunction App() {\r\n\r\n  return (\r\n      <div className=\"App\">\r\n          <h1>Pharmacy</h1>\r\n\r\n      </div>\r\n  );\r\n}\r\n\r\nexport default App;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.js b/src/App.js
+--- a/src/App.js	
++++ b/src/App.js	
+@@ -9,6 +9,7 @@
+   return (
+       <div className="App">
+           <h1>Pharmacy</h1>
++          <h1>Pharmacy</h1>
+ 
+       </div>
+   );
