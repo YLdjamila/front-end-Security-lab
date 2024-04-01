@@ -1,5 +1,6 @@
 import './App.css';
-import React from 'react';
+import React, {useState} from 'react';
+
 
 
 
@@ -8,7 +9,9 @@ function App() {
 
   return (
       <div className="App">
-          <h1>Pharmacy</h1>
+        <h1>Pharmacie</h1>
+
+
 
       </div>
   );
