@@ -1,0 +1,2 @@
+C:/Users/HP ELITEBOOK/IdeaProjects/tp2/prjt/android/app/.cxx/Debug/c6r8cq3a/x86/CMakeFiles/edit_cache.dir
+C:/Users/HP ELITEBOOK/IdeaProjects/tp2/prjt/android/app/.cxx/Debug/c6r8cq3a/x86/CMakeFiles/rebuild_cache.dir
